@@ -208,10 +208,10 @@ class MapBrowserEventHandler extends EventTarget {
 
     if (this.dragListenerKeys_.length === 0) {
       this.dragListenerKeys_.push(
-        listen(document,
+        listen(this.element_,
           MapBrowserEventType.POINTERMOVE,
           this.handlePointerMove_, this),
-        listen(document,
+        listen(this.element_,
           MapBrowserEventType.POINTERUP,
           this.handlePointerUp_, this),
         /* Note that the listener for `pointercancel is set up on
