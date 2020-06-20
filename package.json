@@ -1,5 +1,5 @@
 {
-  "name": "ol",
+  "name": "@davvidess/ol",
   "version": "6.3.1",
   "description": "OpenLayers mapping library",
   "keywords": [
