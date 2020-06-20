@@ -15,7 +15,7 @@ BUILT_PACKAGE=build/ol
 #
 # URL for canonical repo.
 #
-REMOTE=https://github.com/openlayers/openlayers.git
+REMOTE=https://github.com/davvidess/openlayers.git
 
 #
 # Display usage and exit.
